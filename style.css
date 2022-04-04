@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@1&display=swap');
+
+:root{
+
+    --colorSand:#ECC8AF;
+    --colorGreen:#03440C;
+    --colorCelest:#A8F9FF;
+    --colorLightGreen:#41ff71;
+
+    --fontBaskervviller: Baskervville, Arial, Helvetica, sans-serif; 
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-image:linear-gradient(to bottom, var(--colorCelest), white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    text-align: center;
+    padding: 50px;
+    background-image: linear-gradient(to top, var(--colorLightGreen), white);
+    margin-bottom: 20px;
+}
+header h1{
+    font-size: 3em;
+}
+header p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+nav{
+    text-align: left;
+    padding: 10px;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+nav a:hover{
+    background-color: var(--colorGreen);
+    color: white;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+main {
+    background-color: white;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+    overflow-y: hidden;
+}
+article {
+    font-family: var(--fontBaskervviller);
+    font-size: 28px;
+    text-align: center;
+
+}
+article h1 {
+    padding: 15px;
+    margin-bottom: 30px;
+}
+article p {
+    margin-bottom: 30px;
+}
+p.estrofe{
+    font-size: 28px;
+    line-height: 64px;
+    text-align: center;
+    margin: 30px 0px 200px 10px;
+    background-color: rgba(0, 0, 0, 0.226);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+div{
+    margin-bottom: 200px;
+
+}
+div#sabia{
+    position: relative;
+    color: white;
+    background-image: url('imagens/palmeira-noite.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    box-shadow:inset 10px 10px 15px rgba(0, 0, 0, 0.445);
+}
+p#sabia{
+    position: absolute;
+}
+
+div#noite{
+    position: relative;
+    color: white;
+    background-image: url('imagens/sabia.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    box-shadow:inset 10px 10px 15px rgba(0, 0, 0, 0.445);
+}
+p#noite{
+    position: absolute;
+}
+div#palmeira{
+    position: relative;
+    color: white;
+    background-image: url('imagens/palmeira1.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    box-shadow:inset 10px 10px 15px rgba(0, 0, 0, 0.445);
+}
+p#palmeira{
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+}
