@@ -6,4 +6,6 @@ Este projeto foi construido no modulo 03 de html e css do curso em video, e esta
 
 Pagina web desenvolvida para trabalhar conceitos de css, nesta pagina foi aplicado o efeito parallax apenas com css e html.
 
-<a href="https://viniciusdiasamorim.github.io/Parallax/">
+Veja o projeto no ar clicando no link abaixo.
+
+<a href="https://viniciusdiasamorim.github.io/Parallax/" taget=_blank>Clique aqui ^^</a>
