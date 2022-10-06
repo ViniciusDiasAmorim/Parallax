@@ -8,4 +8,4 @@ Pagina web desenvolvida para trabalhar conceitos de css, nesta pagina foi aplica
 
 Veja o projeto no ar clicando no link abaixo.
 
-<a href="https://viniciusdiasamorim.github.io/Parallax/" taget=_blank>Clique aqui ^^</a>
+<a href="https://viniciusdiasamorim.github.io/Parallax/" target="_blank">Clique aqui</a>
